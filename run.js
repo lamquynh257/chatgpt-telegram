@@ -10,10 +10,6 @@ require("dotenv").config();
 const token = process.env.TELE_API_KEY;
 const bot = new TelegramBot(token, { polling: true });
 
-// // Thiết lập OpenAI API
-// const apiKey = "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";
-// const openaiClient = new openai(apiKey);
-
 // Xử lý tin nhắn mới
 bot.on("message", async (msg) => {
   const authorId = msg.from.id; // Lấy id của người gửi
