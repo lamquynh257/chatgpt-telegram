@@ -1,10 +1,10 @@
 {
   "development": {
-    "username": "chatgpt",
-    "password": "Thanhlam123!@#",
-    "database": "chatgpt",
-    "host": "203.205.33.59",
-    "port": 33066,
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "port": 3306,
     "dialect": "mysql"
   },
   "test": {
